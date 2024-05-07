@@ -1,0 +1,19 @@
+{
+  "extends": "react-app",
+  "plugins": [
+    "react-hooks"
+  ],
+  "rules": {
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "no-multi-spaces": 1,
+    "react/jsx-tag-spacing": 1,        //Always add a space before automatically closing tags, and no line breaks are required under normal circumstances.
+    "jsx-quotes": 1,
+    "react/jsx-closing-bracket-location": 1,    //Follow jsx syntax indentation/formatting
+    "react/jsx-boolean-value": 1,               //If the attribute value is true, it can be omitted directly
+    "react/no-string-refs": 1,      //Always use callback functions in refs
+    "react/self-closing-comp": 1,    //For tags with no child elements, always close the tag yourself
+    "react/sort-comp": 1,            //Write code according to the life cycle function of React.createClass according to the specific specifications
+    "react/jsx-pascal-case": 1        //React module names use Pascal naming, and instances use camel naming.
+  }
+}
